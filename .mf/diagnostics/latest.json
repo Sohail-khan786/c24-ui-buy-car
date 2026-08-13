@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"/Users/apple/.nvm/versions/node/v26.1.0/bin/node /Users/apple/workspace/react/mfe/c24-ui-buy-car/node_modules/typescript/bin/tsc --project /Users/apple/workspace/react/mfe/c24-ui-buy-car/node_modules/.federation/tsconfig.061d6a619be0d06ce147f247927f2a34.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "/Users/apple/.nvm/versions/node/v26.1.0/bin/node /Users/apple/workspace/react/mfe/c24-ui-buy-car/node_modules/typescript/bin/tsc --project /Users/apple/workspace/react/mfe/c24-ui-buy-car/node_modules/.federation/tsconfig.061d6a619be0d06ce147f247927f2a34.json"
+    },
+    "timestamp": 1786600102234
+  }
+}
