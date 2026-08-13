@@ -10,6 +10,7 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./BuyCar": "./src/components/BuyCar",
+        "./BuyCarApp": "./src/BuyCarApp",
       },
       shared: {
         react: {
@@ -22,6 +23,9 @@ export default defineConfig({
           singleton: true,
         },
         "react-dom/": {
+          singleton: true,
+        },
+        "react-router-dom": {
           singleton: true,
         },
       },
