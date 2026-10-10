@@ -1,6 +1,7 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import Listing from "./pages/Listing";
 import Detail from "./pages/Detail";
+import Payment from "./pages/Payement";
 
 export const buyCarRoutes = [
   {
@@ -13,6 +14,10 @@ export const buyCarRoutes = [
       {
         path: ":id",
         element: <Detail />,
+      },
+      {
+        path: "payment",
+        element: <Payment />,
       },
     ],
   },
